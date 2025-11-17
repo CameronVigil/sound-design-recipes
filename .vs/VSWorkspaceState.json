@@ -1,8 +1,13 @@
 {
   "ExpandedNodes": [
     "",
-    "\\public",
-    "\\src"
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\core",
+    "\\src\\app\\core\\models",
+    "\\src\\app\\core\\services",
+    "\\src\\environments"
   ],
+  "SelectedNode": "\\src\\environments",
   "PreviewInSolutionExplorer": false
 }
