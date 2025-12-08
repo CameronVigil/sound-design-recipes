@@ -46,4 +46,4 @@ Thumbs.db
 src/environments/environment.ts
 src/environments/environment.prod.ts
 .vercel
-/sdr-backend/.env
+sdr-backend/.env
