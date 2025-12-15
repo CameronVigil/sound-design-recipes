@@ -1,6 +1,13 @@
 # SDR Frontend - Sound Design Recipes
 
-Angular 18 frontend for the Sound Design Recipes platform. Browse TikTok sound design tutorials with step-by-step Ableton instructions.
+Angular 21 frontend for the Sound Design Recipes platform. Browse TikTok sound design tutorials with step-by-step Ableton instructions.
+
+## Angular 21 Features Used
+
+- **Zoneless by default** - No Zone.js, smaller bundle, better performance
+- **Signals** - Reactive state management throughout
+- **Vitest** - New default test runner
+- **Standalone components** - No NgModules
 
 ## Design
 
@@ -13,8 +20,8 @@ Angular 18 frontend for the Sound Design Recipes platform. Browse TikTok sound d
 
 ### Prerequisites
 
-- Node.js 18+
-- npm or yarn
+- Node.js 20+
+- npm or pnpm
 - Backend running at `https://sdr-backend.fly.dev` (or update `environment.ts`)
 
 ### Installation
@@ -28,6 +35,12 @@ npm start
 ```
 
 Open [http://localhost:4200](http://localhost:4200) in your browser.
+
+### Testing (Vitest)
+
+```bash
+npm test
+```
 
 ### Build for Production
 
